@@ -24,7 +24,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1> {this.state.advice}</h1>
-        <button onClick={this.fetchAdvice}>Give me adviceS </button>
+        <button onClick={this.fetchAdvice}>Give me advices </button>
       </div>
     );
   }
